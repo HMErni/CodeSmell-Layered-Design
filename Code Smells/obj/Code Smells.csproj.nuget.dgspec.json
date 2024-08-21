@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj": {}
+    "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj": {}
   },
   "projects": {
-    "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj": {
+    "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj",
+        "projectUniqueName": "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj",
         "projectName": "Code Smells",
-        "projectPath": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj",
+        "projectPath": "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj",
         "packagesPath": "C:\\Users\\Boot Camp\\.nuget\\packages\\",
-        "outputPath": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\obj\\",
+        "outputPath": "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Boot Camp\\AppData\\Roaming\\NuGet\\NuGet.Config",
