@@ -110,3 +110,4 @@ C:\_ERNI-Hero\_Code Smell\Code Smells.Test\obj\Debug\net8.0\refint\Code Smells.T
 C:\_ERNI-Hero\_Code Smell\Code Smells.Test\obj\Debug\net8.0\Code Smells.Test.pdb
 C:\_ERNI-Hero\_Code Smell\Code Smells.Test\obj\Debug\net8.0\Code Smells.Test.genruntimeconfig.cache
 C:\_ERNI-Hero\_Code Smell\Code Smells.Test\obj\Debug\net8.0\ref\Code Smells.Test.dll
+C:\_ERNI-Hero\_Code Smell\Code Smells.Test\obj\Debug\net8.0\Code Smells.Test.sourcelink.json

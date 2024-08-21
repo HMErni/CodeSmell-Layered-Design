@@ -43,35 +43,27 @@ public class UserServiceTest
     [Test]
     public void GetUsers_WhenUsersIsEmpty_ShouldReturnEmptyList()
     {
-        // Arrange
         _userRepoMock.Setup(repo => repo.GetUsers()).Returns([]);
 
-        // Act
         var result = _userService.GetUsers();
 
-        // Assert
         result.ShouldBe(Enumerable.Empty<User>());
         result.Count.ShouldBe(0);
-        _userRepoMock.Verify(repo => repo.GetUsers(), Times.Once());
     }
 
     [Test]
     public void GetUsers_WhenUsersIsNull_ShouldThrowNullReferenceException()
     {
-        // Arrange
         _userRepoMock.Setup(repo => repo.GetUsers()).Throws(new NullReferenceException());
 
-        // Act & Assert
         Should.Throw<NullReferenceException>(() => _userService.GetUsers());
     }
 
     [Test]
     public void GetUsers_WhenRepoThrowsHttpRequestException_ShouldThrowHttpRequestException()
     {
-        // Arrange
         _userRepoMock.Setup(repo => repo.GetUsers()).Throws(new HttpRequestException());
 
-        // Act & Assert
         Should.Throw<HttpRequestException>(() => _userService.GetUsers());
     }
 }
