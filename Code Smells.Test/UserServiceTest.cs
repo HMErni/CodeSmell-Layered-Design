@@ -22,7 +22,6 @@ public class UserServiceTest
     [Test]
     public void GetUsers_WhenUsersIsNotEmpty_ShouldReturnUsers()
     {
-        // Arrange
         var expectedUsers = new List<User>{
             new User { id = 1, name = "John", company = "Microsoft" },
             new User { id = 2, name = "Jane", company = "Google" },
@@ -31,10 +30,8 @@ public class UserServiceTest
 
         _userRepoMock.Setup(repo => repo.GetUsers()).Returns(expectedUsers);
 
-        // Act
         var result = _userService.GetUsers();
 
-        // Assert
         result.ShouldNotBe(Enumerable.Empty<User>());
         result.Count.ShouldBe(expectedUsers.Count);
         _userRepoMock.Verify(repo => repo.GetUsers(), Times.Once());
