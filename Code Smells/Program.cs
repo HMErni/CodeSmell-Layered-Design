@@ -43,3 +43,5 @@ public class Program
     }
 
 }
+
+//Good structure of code
