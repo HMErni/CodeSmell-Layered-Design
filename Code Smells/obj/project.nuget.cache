@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AhVZGfyMIw0=",
+  "dgSpecHash": "a2dGpS5nFBo=",
   "success": true,
-  "projectFilePath": "c:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj",
+  "projectFilePath": "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells\\Code Smells.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

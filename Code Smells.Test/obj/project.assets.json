@@ -1191,11 +1191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells.Test\\Code Smells.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells.Test\\Code Smells.Test.csproj",
       "projectName": "Code Smells.Test",
-      "projectPath": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells.Test\\Code Smells.Test.csproj",
+      "projectPath": "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells.Test\\Code Smells.Test.csproj",
       "packagesPath": "C:\\Users\\Boot Camp\\.nuget\\packages\\",
-      "outputPath": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells.Test\\obj\\",
+      "outputPath": "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Boot Camp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1213,8 +1213,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj": {
-              "projectPath": "C:\\_ERNI-Hero\\_Code Smell\\Code Smells\\Code Smells.csproj"
+            "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells\\Code Smells.csproj": {
+              "projectPath": "C:\\Users\\Boot Camp\\Desktop\\HERO_CODE\\CodeSmell-Layered-Design\\Code Smells\\Code Smells.csproj"
             }
           }
         }
@@ -1279,7 +1279,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

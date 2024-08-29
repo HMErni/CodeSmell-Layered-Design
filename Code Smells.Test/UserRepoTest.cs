@@ -61,3 +61,5 @@ public class UserRepoTest
         Should.Throw<HttpRequestException>(() => _userRepoMock.Object.GetUsers());
     }
 }
+
+//Good use of test cases 
